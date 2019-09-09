@@ -10,7 +10,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MainScrollView : UIScrollView
+@interface MainScrollView : UIScrollView <UIGestureRecognizerDelegate>
+
+@property (nonatomic, assign) CGFloat headerViewHeight;
+@property (nonatomic, assign) CGFloat menuViewHeight;
 
 @end
 

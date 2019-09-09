@@ -10,12 +10,13 @@
 
 @implementation ContainView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (BOOL)isEmpty {
+    return self.subviews.count == 0;
 }
-*/
+
+- (BOOL)displayingIn:(UIView *)view containView:(UIView *)containView {
+    CGRect convertedFrame = [containView convertRect:self.frame toView:view];
+    return CGRectIntersectsRect(view.frame, convertedFrame);
+}
 
 @end

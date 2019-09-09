@@ -8,10 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+@class SegmentPageChildViewController;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ContainView : UIView
 
+@property (nonatomic, weak) UIViewController<SegmentPageChildViewController> * viewController;
+
+@property (nonatomic, assign) BOOL isEmpty;
+
+- (BOOL)displayingIn:(UIView *)view containView:(UIView *)containView;
 @end
 
 NS_ASSUME_NONNULL_END

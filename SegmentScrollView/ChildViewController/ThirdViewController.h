@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ThirdViewController : UIViewController
+@interface ThirdViewController : UIViewController<SegmentPageChildViewController>
 
 @end
 

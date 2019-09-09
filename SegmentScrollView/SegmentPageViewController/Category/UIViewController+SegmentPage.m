@@ -10,4 +10,10 @@
 
 @implementation UIViewController (SegmentPage)
 
+- (void)clearFromParent {
+    [self willMoveToParentViewController:nil];
+    [self.view removeFromSuperview];
+    [self removeFromParentViewController];
+}
+
 @end

@@ -10,8 +10,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MenuItemView : UIView
+@interface MenuItemView : UILabel
 
+@property (nonatomic, assign) CGFloat rate;
+- (instancetype)initWithTextFont:(UIFont *)font normalTextColor:(UIColor *)normalTextColor selectedTextColor:(UIColor *)selectedTextColor;
 @end
 
 NS_ASSUME_NONNULL_END

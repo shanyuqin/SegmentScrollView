@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6ED8C625A418141BAD8E1239 /* Pods_SegmentScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D810C492EC505C5192C76B76 /* Pods_SegmentScrollView.framework */; };
 		941E128D230A3D6300940324 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 941E128C230A3D6300940324 /* AppDelegate.m */; };
 		941E1290230A3D6300940324 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 941E128F230A3D6300940324 /* ViewController.m */; };
 		941E1293230A3D6300940324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941E1291230A3D6300940324 /* Main.storyboard */; };
 		941E1295230A3D6400940324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 941E1294230A3D6400940324 /* Assets.xcassets */; };
 		941E1298230A3D6400940324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941E1296230A3D6400940324 /* LaunchScreen.storyboard */; };
 		941E129B230A3D6400940324 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 941E129A230A3D6400940324 /* main.m */; };
+		941E12AA230A3F8900940324 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 941E12A8230A3F8900940324 /* FirstViewController.m */; };
+		941E12AB230A3F8900940324 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941E12A9230A3F8900940324 /* FirstViewController.xib */; };
+		941E12AF230A3F9500940324 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 941E12AD230A3F9500940324 /* SecondViewController.m */; };
+		941E12B0230A3F9500940324 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941E12AE230A3F9500940324 /* SecondViewController.xib */; };
+		941E12B4230A3FAB00940324 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 941E12B2230A3FAB00940324 /* ThirdViewController.m */; };
+		941E12B5230A3FAB00940324 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941E12B3230A3FAB00940324 /* ThirdViewController.xib */; };
+		941E12B9230A41C900940324 /* TestSegPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 941E12B8230A41C900940324 /* TestSegPageViewController.m */; };
+		941E12BD230A42AF00940324 /* SegmentPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 941E12BC230A42AF00940324 /* SegmentPageViewController.m */; };
+		941E12C5230A4D3E00940324 /* MainScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 941E12C4230A4D3E00940324 /* MainScrollView.m */; };
+		941E12CC230A790600940324 /* UIScrollView+SegmentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 941E12CB230A790600940324 /* UIScrollView+SegmentPage.m */; };
+		941E12CF230B91DD00940324 /* ContainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 941E12CE230B91DD00940324 /* ContainView.m */; };
+		941E12D3230BD18900940324 /* UIViewController+SegmentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 941E12D2230BD18900940324 /* UIViewController+SegmentPage.m */; };
+		941E12DA230BED2200940324 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 941E12D9230BED2200940324 /* MenuView.m */; };
+		941E12DD230BED3400940324 /* MenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 941E12DC230BED3400940324 /* MenuItemView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CE89CE7F1FC6ADE72851C90 /* Pods-SegmentScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SegmentScrollView/Pods-SegmentScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		710CD35B8196374914ADA513 /* Pods-SegmentScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SegmentScrollView/Pods-SegmentScrollView.debug.xcconfig"; sourceTree = "<group>"; };
 		941E1288230A3D6300940324 /* SegmentScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		941E128B230A3D6300940324 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		941E128C230A3D6300940324 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +43,33 @@
 		941E1297230A3D6400940324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		941E1299230A3D6400940324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		941E129A230A3D6400940324 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		941E12A7230A3F8900940324 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		941E12A8230A3F8900940324 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		941E12A9230A3F8900940324 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		941E12AC230A3F9500940324 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		941E12AD230A3F9500940324 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		941E12AE230A3F9500940324 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		941E12B1230A3FAB00940324 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		941E12B2230A3FAB00940324 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		941E12B3230A3FAB00940324 /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		941E12B7230A41C900940324 /* TestSegPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSegPageViewController.h; sourceTree = "<group>"; };
+		941E12B8230A41C900940324 /* TestSegPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSegPageViewController.m; sourceTree = "<group>"; };
+		941E12BB230A42AF00940324 /* SegmentPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentPageViewController.h; sourceTree = "<group>"; };
+		941E12BC230A42AF00940324 /* SegmentPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentPageViewController.m; sourceTree = "<group>"; };
+		941E12C3230A4D3E00940324 /* MainScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainScrollView.h; sourceTree = "<group>"; };
+		941E12C4230A4D3E00940324 /* MainScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainScrollView.m; sourceTree = "<group>"; };
+		941E12CA230A790600940324 /* UIScrollView+SegmentPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SegmentPage.h"; sourceTree = "<group>"; };
+		941E12CB230A790600940324 /* UIScrollView+SegmentPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SegmentPage.m"; sourceTree = "<group>"; };
+		941E12CD230B91DD00940324 /* ContainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainView.h; sourceTree = "<group>"; };
+		941E12CE230B91DD00940324 /* ContainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainView.m; sourceTree = "<group>"; };
+		941E12D0230B982800940324 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = SegmentScrollView/Resource/PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		941E12D1230BD18900940324 /* UIViewController+SegmentPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SegmentPage.h"; sourceTree = "<group>"; };
+		941E12D2230BD18900940324 /* UIViewController+SegmentPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SegmentPage.m"; sourceTree = "<group>"; };
+		941E12D8230BED2200940324 /* MenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		941E12D9230BED2200940324 /* MenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		941E12DB230BED3400940324 /* MenuItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuItemView.h; sourceTree = "<group>"; };
+		941E12DC230BED3400940324 /* MenuItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuItemView.m; sourceTree = "<group>"; };
+		D810C492EC505C5192C76B76 /* Pods_SegmentScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SegmentScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +77,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ED8C625A418141BAD8E1239 /* Pods_SegmentScrollView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		277D4AA506D029507A8F52A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D810C492EC505C5192C76B76 /* Pods_SegmentScrollView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EDDB2FB5071E19B9E70A4A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				710CD35B8196374914ADA513 /* Pods-SegmentScrollView.debug.xcconfig */,
+				2CE89CE7F1FC6ADE72851C90 /* Pods-SegmentScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		941E127F230A3D6200940324 = {
 			isa = PBXGroup;
 			children = (
 				941E128A230A3D6300940324 /* SegmentScrollView */,
 				941E1289230A3D6300940324 /* Products */,
+				6EDDB2FB5071E19B9E70A4A3 /* Pods */,
+				277D4AA506D029507A8F52A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +122,107 @@
 		941E128A230A3D6300940324 /* SegmentScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				941E12A1230A3EA900940324 /* SegmentPageViewController */,
 				941E128B230A3D6300940324 /* AppDelegate.h */,
 				941E128C230A3D6300940324 /* AppDelegate.m */,
 				941E128E230A3D6300940324 /* ViewController.h */,
 				941E128F230A3D6300940324 /* ViewController.m */,
+				941E12B6230A419A00940324 /* TestSegPageViewController */,
+				941E12D7230BED0700940324 /* View */,
+				941E12A6230A3F7300940324 /* ChildViewController */,
+				941E12BE230A42F000940324 /* Resource */,
+			);
+			path = SegmentScrollView;
+			sourceTree = "<group>";
+		};
+		941E12A1230A3EA900940324 /* SegmentPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				941E12C6230A78C000940324 /* Category */,
+				941E12BF230A431800940324 /* View */,
+				941E12A2230A3EBD00940324 /* Controller */,
+			);
+			path = SegmentPageViewController;
+			sourceTree = "<group>";
+		};
+		941E12A2230A3EBD00940324 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				941E12BB230A42AF00940324 /* SegmentPageViewController.h */,
+				941E12BC230A42AF00940324 /* SegmentPageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		941E12A6230A3F7300940324 /* ChildViewController */ = {
+			isa = PBXGroup;
+			children = (
+				941E12A7230A3F8900940324 /* FirstViewController.h */,
+				941E12A8230A3F8900940324 /* FirstViewController.m */,
+				941E12A9230A3F8900940324 /* FirstViewController.xib */,
+				941E12AC230A3F9500940324 /* SecondViewController.h */,
+				941E12AD230A3F9500940324 /* SecondViewController.m */,
+				941E12AE230A3F9500940324 /* SecondViewController.xib */,
+				941E12B1230A3FAB00940324 /* ThirdViewController.h */,
+				941E12B2230A3FAB00940324 /* ThirdViewController.m */,
+				941E12B3230A3FAB00940324 /* ThirdViewController.xib */,
+			);
+			path = ChildViewController;
+			sourceTree = "<group>";
+		};
+		941E12B6230A419A00940324 /* TestSegPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				941E12B7230A41C900940324 /* TestSegPageViewController.h */,
+				941E12B8230A41C900940324 /* TestSegPageViewController.m */,
+			);
+			path = TestSegPageViewController;
+			sourceTree = "<group>";
+		};
+		941E12BE230A42F000940324 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				941E12D0230B982800940324 /* PrefixHeader.pch */,
 				941E1291230A3D6300940324 /* Main.storyboard */,
 				941E1294230A3D6400940324 /* Assets.xcassets */,
 				941E1296230A3D6400940324 /* LaunchScreen.storyboard */,
 				941E1299230A3D6400940324 /* Info.plist */,
 				941E129A230A3D6400940324 /* main.m */,
 			);
-			path = SegmentScrollView;
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		941E12BF230A431800940324 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				941E12C3230A4D3E00940324 /* MainScrollView.h */,
+				941E12C4230A4D3E00940324 /* MainScrollView.m */,
+				941E12CD230B91DD00940324 /* ContainView.h */,
+				941E12CE230B91DD00940324 /* ContainView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		941E12C6230A78C000940324 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				941E12CA230A790600940324 /* UIScrollView+SegmentPage.h */,
+				941E12CB230A790600940324 /* UIScrollView+SegmentPage.m */,
+				941E12D1230BD18900940324 /* UIViewController+SegmentPage.h */,
+				941E12D2230BD18900940324 /* UIViewController+SegmentPage.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		941E12D7230BED0700940324 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				941E12D8230BED2200940324 /* MenuView.h */,
+				941E12D9230BED2200940324 /* MenuView.m */,
+				941E12DB230BED3400940324 /* MenuItemView.h */,
+				941E12DC230BED3400940324 /* MenuItemView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 941E129E230A3D6400940324 /* Build configuration list for PBXNativeTarget "SegmentScrollView" */;
 			buildPhases = (
+				53D752EF611BAE740D051F14 /* [CP] Check Pods Manifest.lock */,
 				941E1284230A3D6300940324 /* Sources */,
 				941E1285230A3D6300940324 /* Frameworks */,
 				941E1286230A3D6300940324 /* Resources */,
+				7FAEA5F841AED32215A96F6B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,20 +286,75 @@
 			files = (
 				941E1298230A3D6400940324 /* LaunchScreen.storyboard in Resources */,
 				941E1295230A3D6400940324 /* Assets.xcassets in Resources */,
+				941E12B5230A3FAB00940324 /* ThirdViewController.xib in Resources */,
 				941E1293230A3D6300940324 /* Main.storyboard in Resources */,
+				941E12AB230A3F8900940324 /* FirstViewController.xib in Resources */,
+				941E12B0230A3F9500940324 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53D752EF611BAE740D051F14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SegmentScrollView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FAEA5F841AED32215A96F6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SegmentScrollView/Pods-SegmentScrollView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SegmentScrollView/Pods-SegmentScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		941E1284230A3D6300940324 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941E12AF230A3F9500940324 /* SecondViewController.m in Sources */,
 				941E1290230A3D6300940324 /* ViewController.m in Sources */,
+				941E12C5230A4D3E00940324 /* MainScrollView.m in Sources */,
+				941E12CF230B91DD00940324 /* ContainView.m in Sources */,
+				941E12AA230A3F8900940324 /* FirstViewController.m in Sources */,
+				941E12D3230BD18900940324 /* UIViewController+SegmentPage.m in Sources */,
 				941E129B230A3D6400940324 /* main.m in Sources */,
+				941E12B9230A41C900940324 /* TestSegPageViewController.m in Sources */,
+				941E12BD230A42AF00940324 /* SegmentPageViewController.m in Sources */,
 				941E128D230A3D6300940324 /* AppDelegate.m in Sources */,
+				941E12CC230A790600940324 /* UIScrollView+SegmentPage.m in Sources */,
+				941E12B4230A3FAB00940324 /* ThirdViewController.m in Sources */,
+				941E12DA230BED2200940324 /* MenuView.m in Sources */,
+				941E12DD230BED3400940324 /* MenuItemView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +494,14 @@
 		};
 		941E129F230A3D6400940324 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710CD35B8196374914ADA513 /* Pods-SegmentScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 987562LZCJ;
-				INFOPLIST_FILE = SegmentScrollView/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SegmentScrollView/Resource/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SegmentScrollView/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +514,14 @@
 		};
 		941E12A0230A3D6400940324 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE89CE7F1FC6ADE72851C90 /* Pods-SegmentScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 987562LZCJ;
-				INFOPLIST_FILE = SegmentScrollView/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SegmentScrollView/Resource/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SegmentScrollView/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

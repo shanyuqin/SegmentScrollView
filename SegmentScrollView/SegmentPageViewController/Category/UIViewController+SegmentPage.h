@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIViewController (SegmentPage)
 
+- (void)clearFromParent;
+
 @end
 
 NS_ASSUME_NONNULL_END
